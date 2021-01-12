@@ -1,0 +1,8 @@
+body{
+    background-image: url("imgs/background.jpg") !important;
+}
+
+.aboutBlock{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
