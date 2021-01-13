@@ -13,6 +13,9 @@ body{
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
+/* .carouselImg{
+    min-width: 400px;
+} */
 #vibeCannon, #anotherProject{
     background-color: dimgray;
 }
@@ -23,4 +26,7 @@ body{
     margin-right: 15px;
     margin-left: 10px;
     font-size: 25px;
+}
+.resumeBtn{
+    font-size: 19px !important;
 }
