@@ -13,6 +13,12 @@ body{
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
+#vibeCannon, #anotherProject{
+    background-color: dimgray;
+}
+#vibeCannon{
+   margin-bottom: 10px;
+}
 .contactInfo{
     margin-right: 15px;
     margin-left: 10px;
