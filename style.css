@@ -1,8 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-image: url("imgs/background.jpg") !important;
 }
-
-.aboutBlock{
-    background-color: cornflowerblue;
-    border-radius: 5px;
+#aboutBlock{
+    margin-top: 10px;
+}
+.aboutInfo, .imgCarousel{
+    margin-bottom: 10px;
 }
