@@ -5,7 +5,7 @@ html {
 body{
     background-image: url("imgs/background.jpg");
 }
-a{
+.externalLinks{
     color: aliceblue !important;
 }
 a:hover{
@@ -20,7 +20,7 @@ a:hover{
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
-#vibeCannon, #anotherProject{
+#vibeCannon, #weatherDashboard{
     background-color: dimgray;
 }
 #vibeCannon{
