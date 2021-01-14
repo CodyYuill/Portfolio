@@ -1,10 +1,17 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding: 50px;
 }
 body{
-    background-image: url("imgs/background.jpg") !important;
+    background-image: url("imgs/background.jpg");
 }
-.mainBlock{
+a{
+    color: aliceblue !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.mainBlock, .imgCaption{
     color: aliceblue;
 }
 #aboutBlock{
@@ -13,9 +20,6 @@ body{
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
-/* .carouselImg{
-    min-width: 400px;
-} */
 #vibeCannon, #anotherProject{
     background-color: dimgray;
 }
