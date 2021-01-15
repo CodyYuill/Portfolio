@@ -20,11 +20,9 @@ a:hover{
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
-#vibeCannon, #weatherDashboard{
+#vibeCannon, #weatherDashboard, #codeQuiz{
     background-color: dimgray;
-}
-#vibeCannon{
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .contactInfo{
     margin-right: 15px;
