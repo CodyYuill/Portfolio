@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bb906feb04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cody Yuill</title>
+</head>
+
+<body>
+    <div id="navbarContainer" class="sticky-top container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cody Yuill</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/portfolio.html" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/portfolio.html#vibeCannon">Vibe Cannon</a>
+                            <a class="dropdown-item" href="/portfolio.html#weatherDashboard">Weather Dashboard</a>
+                            <a class="dropdown-item" href="/portfolio.html#theGamesFolder">The Games Folder</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mainBlock" id="portfolioBlock">
+        <div class="jumbotron bg-dark">
+            <h1 class="display-3">Portfolio</h1>
+            <div class="card text-center" id="vibeCannon">
+                <h2 class="display-4">Vibe Cannon</h2>
+                <div class="card-body">           
+                    <h5 class="card-title">Description:</h5>
+                    <p class="card-text">One stop shop for your quarantine music needs. Search a song by title and artist and receive the songs 
+                        lyrics, top 3 videos from YouTube or Vimeo, and the iTunes information.</p>
+                    <h5 class="card-title">Technologies:</h5>
+                    <p class="card-text">Javascript, CSS, HTML, Bulma, YouTube API, Vimeo API, Rebrand.ly API, iTunes API, Lyrics.ovh API, JQuery</p>
+                    <h5 class="card-title">Role:</h5>
+                    <p class="card-text">JS logic, code refactoring</p>
+                    <figure class="figure">
+                        <img src="imgs/LM-screenshot.jpg" class="figure-img img-fluid rounded" alt="light mode screenshot of Vibe Cannon">
+                        <figcaption class="figure-caption imgCaption">Light mode screenshot of Vibe Cannon</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="imgs/DM-screenshot.jpg" class="figure-img img-fluid rounded" alt="dark mode screenshot of Vibe Cannon">
+                        <figcaption class="figure-caption imgCaption">Dark mode screenshot of Vibe Cannon</figcaption>
+                    </figure>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://github.com/CodyYuill/Vibe-Cannon">Github repo</a>                        
+                    </button>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://codyyuill.github.io/Vibe-Cannon/">Deployment</a>                        
+                    </button>
+                </div>
+            </div>
+            <div class="card text-center" id="weatherDashboard">
+                <h2 class="display-4">Weather Dashboard</h2>
+                <div class="card-body">
+                    <h5 class="card-title">Description:</h5>
+                    <p class="card-text">Search cities by name to receive the current weather, along with a 5 day forecast.</p>
+                    <h5 class="card-title">Technologies:</h5>
+                    <p class="card-text">Javascript, CSS, HTML, OpenWeather API, Bootstrap, Luxon, JQuery</p>
+                    <h5 class="card-title">Role:</h5>
+                    <p class="card-text">Solo Project</p>
+                    <figure class="figure">
+                        <img src="imgs/WD-screenshot.jpg" class="figure-img img-fluid rounded" alt="Screenshot of weather dashboard">
+                        <figcaption class="figure-caption imgCaption">Screenshot of weather dashboard</figcaption>
+                    </figure>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://github.com/CodyYuill/WeatherDashboard">Github repo</a>                        
+                    </button>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://codyyuill.github.io/WeatherDashboard/">Deployment</a>                        
+                    </button>
+                </div>
+            </div>
+            <div class="card text-center" id="theGamesFolder">
+                <h2 class="display-4">The Games Folder</h2>
+                <div class="card-body">
+                    <h5 class="card-title">Description:</h5>
+                    <p class="card-text">Buy and review video games online.</p>
+                    <h5 class="card-title">Technologies:</h5>
+                    <p class="card-text">Javascript, CSS, HTML, Bootstrap, MySQL, Express, Heroku, Node.js, Handlebars, JSON Web Tokens</p>
+                    <h5 class="card-title">Role:</h5>
+                    <p class="card-text">Backend</p>
+                    <figure class="figure">
+                        <img src="imgs/GF-MP-screenshot.jpg" class="figure-img img-fluid rounded" alt="home page">
+                        <figcaption class="figure-caption imgCaption">Home page</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="imgs/GF-RLP-screenshot.jpg" class="figure-img img-fluid rounded" alt="results list page">
+                        <figcaption class="figure-caption imgCaption">Results list page</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="imgs/GF-RSP-screenshot.jpg" class="figure-img img-fluid rounded" alt="single result page">
+                        <figcaption class="figure-caption imgCaption">Single product page (zoomed out to fit)</figcaption>
+                    </figure>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://github.com/CodyYuill/The-Games-Folder">Github repo</a>                        
+                    </button>
+                    <button class="btn btn-danger">
+                        <a class="externalLinks" target="_blank" href="https://group1-project2.herokuapp.com/">Deployment</a>                        
+                    </button>
+                </div>
+            </div>
+
+
+    </div>
+
+
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

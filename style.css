@@ -12,15 +12,14 @@ a:hover{
     text-decoration: none;
 }
 .mainBlock, .imgCaption{
+    margin-top: 10px;
     color: aliceblue;
 }
-#aboutBlock{
-    margin-top: 10px;
-}
+
 .aboutInfo, .imgCarousel{
     margin-bottom: 10px;
 }
-#vibeCannon, #weatherDashboard, #codeQuiz, #eatDaBurger{
+#vibeCannon, #weatherDashboard, #theGamesFolder{
     background-color: dimgray;
     margin-bottom: 10px;
 }
